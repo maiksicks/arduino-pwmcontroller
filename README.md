@@ -1,6 +1,9 @@
 # arduino-pwmcontroller
 This library can fade PWM pins without blocking your code. No watchdog timers are used.
 
+## Installation
+Simply download this repository and put the `arduino-pwmcontroller-master` folder into your `Arduino/libraries` folder.
+
 ## Usage
 First, include the library in your sketch:
 ```
