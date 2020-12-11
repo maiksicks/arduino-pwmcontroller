@@ -1,0 +1,33 @@
+#######################################
+# Syntax Coloring Map For PWMController
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+setSynchronousMode	KEYWORD2
+setInvert		KEYWORD2
+setTimingMultiplier	KEYWORD2
+setBitWidth		KEYWORD2
+on			KEYWORD2
+off			KEYWORD2
+set			KEYWORD2
+fade			KEYWORD2
+execute			KEYWORD2
+stop			KEYWORD2
+
+#######################################
+# Library (KEYWORD3)
+#######################################
+
+PWMController	KEYWORD3
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
