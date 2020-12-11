@@ -56,6 +56,14 @@ pwm.stop();
 
 ## Special features
 
+You can invert pwm output simply by using the following line:
+```
+void setup() {
+  // ...
+  pwm.setInvert(true);
+}
+```
+
 In case you changed the internal TIMER 0 multiplier for higher PWM frequency, millis() and delay() are not working as expected.
 In the example below, TIMER 0's multiplier is changed from 64 to 1 and `delay(64 * 1000)` will delay for 1 second.
 ```
